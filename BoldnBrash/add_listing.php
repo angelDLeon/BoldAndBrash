@@ -1,6 +1,7 @@
 <?php
   include('session.php');
 
+  // testing commit (Angelica)
   // check for submit
   if(isset($_POST['submit'])){
     $resource_name = mysqli_real_escape_string($conn, $_POST['resource_name']);
